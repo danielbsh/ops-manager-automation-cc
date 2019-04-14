@@ -51,4 +51,5 @@ errand-config:
 resource-config:
   pivotal-container-service:
     elb_names:
-    - alb:((subdomain-name))-pks-tg-9021,alb:((subdomain-name))-pks-tg-8443
+    - alb:((subdomain-name))-pks-tg-9021
+    - alb:((subdomain-name))-pks-tg-8443
